@@ -1,0 +1,70 @@
+#include <iostream>
+
+using namespace std;
+
+struct data_lagu{
+int id_lagu;	
+};
+
+
+void binarySearch(data_lagu *lagu, int& ulang, int target) {
+    bool ditemukan = false;
+    int kiri = 0;
+    int kanan = ulang - 1;
+    int tengah;
+    while (kiri <= kanan) {
+		// Jika target ditemukan di tengah
+        tengah = kiri + (kanan - kiri) / 2;
+        if (lagu[tengah].id_lagu == target) {
+			cout<<endl;
+			cout<<"---------------------------------------"<<endl;
+			cout<<"|            BINARY SEARCH            |"<<endl;
+			cout<<"---------------------------------------"<<endl;
+            cout<<"Id Lagu\t : "<<lagu[tengah].id_lagu<<endl;
+            ditemukan = true;
+            break;
+        }
+        // Jika target lebih besar, cari di setengah kiri
+        else if (lagu[tengah].id_lagu < target) {
+            kiri = tengah + 1;
+        }
+        // Jika target lebih kecil, cari di setengah kanan
+        else {
+            kanan = tengah - 1;
+        }
+    }   
+			if (!ditemukan) {
+				cout<<endl;
+				cout << "Id lagu tidak ditemukan." << endl;
+			}
+}
+
+
+int main(){
+	data_lagu lagu[1000];
+	int ulang;
+	int target;
+	char kembali;
+
+do{	
+	ulang = 5;
+    lagu[0].id_lagu = 10;
+    lagu[1].id_lagu = 20;
+    lagu[2].id_lagu = 30;
+    lagu[3].id_lagu = 40;
+    lagu[4].id_lagu = 50;
+    
+	cout<<"Masukkan Id Lagu yang ingin dicari : ";
+	cin>>target;
+	cout<<"Lagu yang Anda cari : ";
+	binarySearch(lagu, ulang, target);
+	
+	cout<<"Kembali ?(y/n)";
+	cin>>kembali;
+}while(kembali== 'y');
+if(kembali=='n'){
+	exit(0);}	
+	
+	
+return 0;
+}

@@ -437,8 +437,66 @@ CMakeFiles/cpp.dir/main.cpp.o: main.cpp \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
-  module/pybind11/include/pybind11/typing.h
+  module/pybind11/include/pybind11/typing.h \
+  module/pybind11/include/pybind11/stl.h \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/c++/11/variant \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h
 
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+/usr/include/c++/11/variant:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+/usr/include/c++/11/bits/mask_array.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+/usr/include/c++/11/bits/slice_array.h:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/c++/11/valarray:
+
+/usr/include/c++/11/set:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/c++/11/ctime:
 
@@ -506,6 +564,8 @@ module/pybind11/include/pybind11/detail/descr.h:
 
 /usr/include/python3.10/cpython/pyctype.h:
 
+/usr/include/c++/11/bits/valarray_array.tcc:
+
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/python3.10/bltinmodule.h:
@@ -513,6 +573,8 @@ module/pybind11/include/pybind11/detail/descr.h:
 /usr/include/python3.10/cpython/import.h:
 
 /usr/include/python3.10/intrcheck.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/python3.10/osmodule.h:
 
@@ -544,6 +606,8 @@ module/pybind11/include/pybind11/detail/descr.h:
 
 /usr/include/python3.10/weakrefobject.h:
 
+/usr/include/c++/11/bits/stl_tree.h:
+
 /usr/include/python3.10/genericaliasobject.h:
 
 /usr/include/python3.10/descrobject.h:
@@ -567,6 +631,8 @@ module/pybind11/include/pybind11/detail/descr.h:
 /usr/include/python3.10/classobject.h:
 
 /usr/include/python3.10/moduleobject.h:
+
+/usr/include/c++/11/list:
 
 /usr/include/python3.10/pylifecycle.h:
 
@@ -620,7 +686,13 @@ module/pybind11/include/pybind11/detail/descr.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
+/usr/include/c++/11/deque:
+
 /usr/include/linux/stat.h:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
@@ -662,6 +734,8 @@ module/pybind11/include/pybind11/options.h:
 
 /usr/include/c++/11/bits/specfun.h:
 
+/usr/include/c++/11/bits/stl_list.h:
+
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
@@ -677,6 +751,8 @@ module/pybind11/include/pybind11/options.h:
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 main.cpp:
+
+/usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -830,6 +906,8 @@ main.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
+module/pybind11/include/pybind11/stl.h:
+
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -950,6 +1028,8 @@ module/pybind11/include/pybind11/detail/class.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
+
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
@@ -1069,6 +1149,8 @@ module/pybind11/include/pybind11/typing.h:
 /usr/include/sched.h:
 
 /usr/include/wctype.h:
+
+/usr/include/dirent.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
@@ -1251,6 +1333,8 @@ module/pybind11/include/pybind11/attr.h:
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 
 /usr/include/python3.10/pymacconfig.h:
+
+/usr/include/c++/11/bits/valarray_before.h:
 
 /usr/include/python3.10/fileutils.h:
 
